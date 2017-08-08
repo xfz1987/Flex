@@ -67,3 +67,8 @@ flex-shrink的默认值为1，如果没有显示定义该属性，将会自动�
 > 复合属性。设置或检索伸缩盒对象的子元素如何分配空间
 > 如果缩写flex:1, 则其计算值为：1 1 0
 > flex：none | [ flex-grow ] || [ flex-shrink ] || [ flex-basis ]
+#### 注意
+```
+兼容写法
+display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:box;display:-webkit-flex;display:flex;
+```
